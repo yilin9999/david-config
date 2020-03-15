@@ -1,4 +1,5 @@
 {
     "window.zoomLevel": 1,
-    "python.linting.pylintArgs": ["--enable=all"] 
+    "python.linting.pylintArgs": ["--enable=all"],
+    "files.trimTrailingWhitespace": true
 }
