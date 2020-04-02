@@ -1,5 +1,12 @@
 {
-    "window.zoomLevel": 1,
-    "python.linting.pylintArgs": ["--enable=all"],
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "asciidoc.preview.fontSize": 12,
+    "asciidoc.preview.useEditorStyle": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Args": [
+        "--ignore=E501,E126"
+    ]
 }
